@@ -1,24 +1,14 @@
-from json import load
-from turtle import color
-from xmlrpc.client import Boolean
 import streamlit as st
 import pandas as pd
-import numpy as np
-import time 
 import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import classification_report
-from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import plot_confusion_matrix, plot_roc_curve
 from sklearn.metrics import precision_score, recall_score, confusion_matrix
-from sklearn import metrics
-from sklearn.naive_bayes import GaussianNB  
-from matplotlib.colors import ListedColormap  
+from sklearn.naive_bayes import GaussianNB
 from sklearn.preprocessing import StandardScaler
 from sklearn.neighbors import KNeighborsClassifier
-from statistics import mode
 import math
 import random
 import warnings
