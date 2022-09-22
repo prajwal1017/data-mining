@@ -14,7 +14,6 @@ graphviz = "*"
 dtreeviz = "*"
 seaborn = "*"
 multiapp = "*"
-xmlrpc = "*"
 
 [dev-packages]
 
